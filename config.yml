@@ -1,0 +1,4 @@
+jtype: PegasusSummarizer
+metas:
+  py_modules:
+    - executor.py

@@ -1,0 +1,4 @@
+
+jina==3.7.0
+docarray
+transformers==4.20.1

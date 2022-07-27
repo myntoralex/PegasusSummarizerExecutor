@@ -1,0 +1,14 @@
+jtype: Flow
+version: '1'
+with:
+  protocol: http
+  port: 51000
+executors:
+- name: summaerizer
+  polling: "ANY"
+  uses: jinahub+docker://PegasusSummarizer/latest
+  port: 55859
+  upload_files: []
+  port_monitoring: 50399
+  install_requirements: true
+  port_monitoring: 62686
